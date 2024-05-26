@@ -29,7 +29,6 @@ header{
 }
 
 #left{
-    text-align: left;
     padding-left: 10px;
 }
 
@@ -109,13 +108,14 @@ header{
 /* PRIMO BLOCCO MAIN */
 .background_oxidian{
     background-color: #282828;
+    border-bottom: 1px solid white;
 }
 
-.row_oxidian-block{
+.row_aqua-block{
     display: flex;
     flex-wrap: wrap;
     height: 600px;
-    padding: 20px 0px;
+    padding: 10px 0px 20px 0px;
 }
 
 .column-pink{
@@ -123,8 +123,28 @@ header{
     background-color: hotpink;
 }
 
-.column-aquamarine{
+
+.column-aqua{
     width: 15%;
-    background-color: aquamarine;
+    background-color: aqua;
     border: 2px dashed white;
+}
+
+
+/* SECONDO BLOCCO MAIN */
+.row_aquamarine-block{
+    padding: 20px 0px;
+}
+
+.column-aquamarine{
+    padding: 10px;
+    background-color: aquamarine;
+    display: flex;
+    justify-content: space-between
+}
+
+.button{
+    padding: 5px 10px;
+    font-size: 12px;
+    background-color: lightcoral;
 }
