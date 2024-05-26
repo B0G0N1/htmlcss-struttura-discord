@@ -5,7 +5,7 @@
 }
 
 
-/* HEADER */
+/* HEADER*/
 header{
     background-color: lightskyblue;
     padding: 10px 0px;
@@ -44,7 +44,7 @@ header{
 }
 
 
-/* PRIMO BLOCCO */
+/* PRIMO BLOCCO MAIN*/
 .background_blue{
     background-color: blue;
 }
@@ -59,7 +59,7 @@ header{
     background-color: plum;
 }
 
-/* 2°/3°/4° BLOCCO */
+/* 2°/3°/4° BLOCCO MAIN*/
 .row_skypink-block{
     display: flex;
     flex-wrap: wrap;
@@ -96,11 +96,35 @@ header{
 }
 
 
-/* QUINTO BLOCCO */
+/* QUINTO BLOCCO MAIN*/
 .row_green-block{
     padding: 40px 0px;
 }
 .column-green{
     height: 800px;
     background-color: green
+}
+
+
+/* PRIMO BLOCCO MAIN */
+.background_oxidian{
+    background-color: #282828;
+}
+
+.row_oxidian-block{
+    display: flex;
+    flex-wrap: wrap;
+    height: 600px;
+    padding: 20px 0px;
+}
+
+.column-pink{
+    width: 40%;
+    background-color: hotpink;
+}
+
+.column-aquamarine{
+    width: 15%;
+    background-color: aquamarine;
+    border: 2px dashed white;
 }
