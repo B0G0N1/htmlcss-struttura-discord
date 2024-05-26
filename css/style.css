@@ -11,9 +11,10 @@ header{
     padding: 10px 0px;
 }
 
-.container_header{
+.container{
     max-width: 1200px;
     margin: 0 auto;
+    padding: 0px 100px;
 }
 
 .row_header{
@@ -21,7 +22,6 @@ header{
     flex-wrap: wrap;
     line-height: 2;
     background-color: goldenrod;
-    margin: 0px 100px;
 }
 
 .column-25{
@@ -51,17 +51,36 @@ header{
     background-color: blue;
 }
 
-.container_first-block{
-    max-width: 1000px;
-    margin: 0 auto;
-}
-
 .row_first-block{
-    padding: 50px 100px;
+    padding: 50px 0px;
 }
 
 .column-100{
     width: 100%;
     height: 300px;
     background-color: plum;
+}
+
+/* SECOND/THIRD/FOURTH BLOCK */
+.row_second-block{
+    display: flex;
+    flex-wrap: wrap;
+    height: 500px;
+    padding: 20px 0px;
+}
+
+.column-70{
+    width: 70%;
+}
+
+.column-30{
+    width: 30%;
+}
+
+.background_pink{
+    background-color: pink;
+}
+
+.background_skyblue{
+    background-color: skyblue;
 }
