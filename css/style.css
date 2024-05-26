@@ -5,17 +5,25 @@
 }
 
 header{
-    background-color: goldenrod;
+    background-color: lightskyblue;
+    padding: 10px 0px;
+}
+
+.container{
+    max-width: 1200px;
+    margin: 0 auto;
 }
 
 .row{
     display: flex;
     flex-wrap: wrap;
-    line-height: 2.5;
+    line-height: 2;
+    background-color: goldenrod;
+    margin: 0px 100px;
 }
 
 .column-25{
-    width: calc(25% - 10px);
+    width: 25%;
     border: 1px dashed black;
 }
 
