@@ -26,7 +26,6 @@ header{
 
 .column-25{
     width: 25%;
-    border: 1px dashed black;
 }
 
 #left{
@@ -42,39 +41,38 @@ header{
 .column-50{
     width: 50%;
     text-align: center;
-    border: 1px dashed black;
 }
 
 
-/* FIRST BLOCK */
+/* PRIMO BLOCCO */
 .background_blue{
     background-color: blue;
 }
 
-.row_first-block{
-    padding: 50px 0px;
+.row_plum-block{
+    padding: 50px 100px;
 }
 
 .column-100{
     width: 100%;
-    height: 300px;
+    height: 400px;
     background-color: plum;
 }
 
-/* SECOND/THIRD/FOURTH BLOCK */
-.row_second-block{
+/* 2°/3°/4° BLOCCO */
+.row_skypink-block{
     display: flex;
     flex-wrap: wrap;
-    height: 500px;
-    padding: 20px 0px;
+    height: 600px;
+    padding: 50px 0px;
 }
 
-.column-70{
-    width: 70%;
+.column-60{
+    width: 60%;
 }
 
-.column-30{
-    width: 30%;
+.column-40{
+    width: 40%;
 }
 
 .background_pink{
@@ -83,4 +81,26 @@ header{
 
 .background_skyblue{
     background-color: skyblue;
+}
+
+.background_grey{
+    background-color: lightslategray;
+}
+
+.order_two{
+    order: 2;
+}
+
+.dashed_border{
+    border: 1px dashed black;
+}
+
+
+/* QUINTO BLOCCO */
+.row_green-block{
+    padding: 40px 0px;
+}
+.column-green{
+    height: 800px;
+    background-color: green
 }
