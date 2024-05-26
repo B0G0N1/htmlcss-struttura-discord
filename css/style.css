@@ -4,17 +4,19 @@
     box-sizing: border-box;
 }
 
+
+/* HEADER */
 header{
     background-color: lightskyblue;
     padding: 10px 0px;
 }
 
-.container{
+.container_header{
     max-width: 1200px;
     margin: 0 auto;
 }
 
-.row{
+.row_header{
     display: flex;
     flex-wrap: wrap;
     line-height: 2;
@@ -41,4 +43,25 @@ header{
     width: 50%;
     text-align: center;
     border: 1px dashed black;
+}
+
+
+/* FIRST BLOCK */
+.background_blue{
+    background-color: blue;
+}
+
+.container_first-block{
+    max-width: 1000px;
+    margin: 0 auto;
+}
+
+.row_first-block{
+    padding: 50px 100px;
+}
+
+.column-100{
+    width: 100%;
+    height: 300px;
+    background-color: plum;
 }
